@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+*.egg
+
+# Matplotlib cache
+.matplotlib/
+
+# Raylib build artifacts
+build/
+obj/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+
+# VSCode and editor files
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile

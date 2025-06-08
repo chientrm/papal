@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "papal"
+version = "0.1.0"
+description = "A project for experimenting with matplotlib"
+authors = [
+    { name="chientrm", email="chientrm@email.com" }
+]
+dependencies = [
+    "matplotlib"
+]
+requires-python = ">=3.8"
